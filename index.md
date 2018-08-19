@@ -34,9 +34,10 @@
 4. Click the tunnelblick icon in your menubar and select 'VPN Details'
 5. Download the FVPN [config file](/downloads/FVPN.ovpn).
 6. Drag that file (FVPN.ovpn) into the tunnelblick VPN Details window and follow the on-screen instructions.
-7. Download [this command file](/downloads/FVPN_tunnel.command).
-8. Open Terminal and enter the command `chmod a+x ~/Downloads/FVPN_tunnel.command && exit`
-9. Move that file (FVPN_tunnel.command) to an accessible location (Perhaps your desktop).
+7. Once installed you can now close the details window.
+8. Download [this command file](/downloads/FVPN_tunnel.command).
+9. Open Terminal and enter the command `chmod a+x ~/Downloads/FVPN_tunnel.command && exit`
+10. Move that file (FVPN_tunnel.command) to an accessible location (Perhaps your desktop).
 
 ## Connect
 
