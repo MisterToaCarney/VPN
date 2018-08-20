@@ -52,4 +52,12 @@
 1. Click the tunnelblick icon in the menubar and select 'Disconnect FVPN'
 2. You can now close the FVPN_tunnel.command terminal window.
 
+<hr>
 
+# Extra
+
+This VPN uses an SSH tunnel to disguise it's traffic in such a way that a DPI (deep packet inspection) firewall can't detect it. 
+This is why you need to run the FVPN_tunnel script before connecting to the VPN.
+If you wish to connect directly to the VPN (without having to run the FVPN_tunnel script), you can do so with this [config file](/downloads/FVPN Direct.ovpn).
+Just install the file as usual into your OpenVPN clinet.
+Keep in mind that this configuration is unlikely to work behind filtered networks.
